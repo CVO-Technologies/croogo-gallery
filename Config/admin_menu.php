@@ -1,7 +1,7 @@
 <?php
 
 CroogoNav::add('extensions.children.gallery', array(
-	'title' => __d('gallery', __d('gallery', 'Gallery')),
+	'title' => __d('gallery', 'Gallery'),
 	'url' => array(
 		'plugin' => 'gallery',
 		'admin' => true,
