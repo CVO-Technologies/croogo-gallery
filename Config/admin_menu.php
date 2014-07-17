@@ -1,6 +1,6 @@
 <?php
 
-CroogoNav::add('extensions.children.gallery', array(
+CroogoNav::add('sidebar', 'content.children.galleries', array(
 	'title' => __d('gallery', 'Gallery'),
 	'url' => array(
 		'plugin' => 'gallery',
