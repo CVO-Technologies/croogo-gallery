@@ -18,6 +18,7 @@ class Album extends GalleryAppModel {
 	public $actsAs = array(
 		'Croogo.Params',
 		'Search.Searchable',
+		'Croogo.Publishable'
 	);
 
 	public $validate = array(

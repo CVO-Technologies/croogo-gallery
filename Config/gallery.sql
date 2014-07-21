@@ -11,7 +11,9 @@ CREATE  TABLE IF NOT EXISTS `albums` (
   `description` TEXT NULL ,
   `type` VARCHAR(15) NOT NULL,
   `params` TEXT,
-  `status` TINYINT(1)  NOT NULL ,
+  `status` INT(1)  NOT NULL ,
+  `publish_start` DATETIME NULL,
+  `publish_end` DATETIME NULL,
   PRIMARY KEY (`id`) )
 ENGINE = InnoDB;
 
